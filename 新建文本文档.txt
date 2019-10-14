@@ -1,1 +1,0 @@
-将jQuery放到WEB-INF下的js里
