@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#fid {
+	margin: 0 auto;
+	width: 400px;
+}
+
+#fid select {
+	margin: 20px;
+}
+
+#fid #intitle {
+	width: 370px;
+	height: 30px;
+	margin: 20px;
+}
+#fid input{
+	margin: 20px;
+}
+#fid textarea {
+	margin: 20px;
+}

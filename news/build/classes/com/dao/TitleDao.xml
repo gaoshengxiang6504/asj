@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.TitleDao">
+<select id="findTitle"  parameterType="com.po.Title" resultType="com.po.Title">
+ select * from news_tilte 
+ <where>
+   <if test="title!=null and title!='' and title!='全部'">
+    and title=#{title}
+   </if>
+   <if test="id!=null and id!=''">
+   and id=#{id}
+   </if>
+   </where>
+</select>
+
+<insert id="addTitle" parameterType="com.po.Title">
+ insert into news_tilte  
+   values(#{id},#{title})
+</insert>
+
+<update id="updateTitle" parameterType="com.po.Title">
+    update news_tilte  
+    <set>
+     <if test="title!=null and title!=''"> title=#{title},</if>
+    </set>
+    where id=#{id}
+ </update>
+ 
+ <delete id="deleteTitle" parameterType="com.po.Title">
+  delete from news_tilte where title=#{title}
+ </delete>
+</mapper>

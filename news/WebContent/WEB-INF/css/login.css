@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#forms {
+	width: 360px;
+	height: 350px;
+	margin: 10px auto;
+	border-radius: 10px 10px 0 0;
+	border: 1px lightgrey solid;
+}
+
+#div2 ul li {
+	list-style: none;
+	margin: 10px 15px;
+}
+
+#div2 ul li label {
+	width: 70px;
+	display: inline-block;
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 15px;
+	margin-left: 20px;
+	font-size: large;
+}
+
+#div2 ul li input {
+	height: 20px;
+}
+
+#div2 ul li .in {
+	margin-top: 20px;
+	margin-left: 105px;
+}

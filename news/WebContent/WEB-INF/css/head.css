@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#global {
+	position: relative;
+	margin: 0 150px;
+}
+
+#div1 img {
+	height: 140px;
+}
+
+#div2 .div {
+	width: 180px;
+	margin-bottom: 10px;
+}
+
+#div2 h3 {
+	background-color: gainsboro;
+	border-radius: 5px 5px 0px 0px;
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+#div2 p {
+	height: 210px;
+	width: 178px;
+	border: 1px gainsboro solid;
+}
+
+#div3 {
+	height: 480px;
+	width: 920px;
+	position: absolute;
+	left: 190px; 
+	top: 141px;
+}
+
+#div3 p {
+	height: 27px;
+	width: 730px;
+	position: absolute;
+	left: 185px;
+	top: 9px;
+	margin: 0;
+	background-color: lightskyblue;
+	text-align: right;
+	color: white;
+}
+
+#div3 #nave {
+	margin: 10px;
+	width: 650px;
+	height: 50px;
+}
+
+#div3 #nave li {
+	list-style: none;
+	float: left;
+	padding-right: 24px;
+	padding-top: 5px;
+}
+
+#div3 hr {
+	width: 910px;
+	margin-left: 5px;
+	margin-right: 300px;
+	margin-bottom: 10px;
+}
+
+#div3 #title {
+	width: 900px;
+	line-height: 25px;
+}
+
+#div3 #title li {
+	margin-left: 25px;
+	display: inline-block;
+	type: disc;
+	width:700px;
+}
+
+#div3 #title  span {
+	display: inline-block;
+	float: right;
+}
+#div3 #title li a{
+	color: #000000; 
+	text-decoration: none;
+}
+#div3 #title li a:hover{
+	text-decoration: underline;
+	color:red;
+}
+#div3 #paging{
+	position:absolute;
+	bottom:0 ;
+	right: 3px;
+}
+#font {
+	background-color: gainsboro;
+	height: 75px;
+	width: 1108px;
+	position: relative;
+}
+
+#font span {
+	display: block;
+	position: absolute;
+	left: 400px;
+	top: 25px;
+	color: grey;
+}
